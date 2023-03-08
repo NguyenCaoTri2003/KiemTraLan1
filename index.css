@@ -1,0 +1,26 @@
+.menu_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#left {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    align-items: center;
+}
+
+#right {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    align-items: center;
+}
+
+.promotions {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    color: rgb(59, 59, 59);
+    display: flex;
+    align-items: center;
+}
