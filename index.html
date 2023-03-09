@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>KiemTraThuongKyLan1</title>
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
+    
     <div class="wrapper">
+        <!-- header -->
         <div class="menu_container">
             <div id="left">
                 <div>Shop</div>
@@ -22,8 +25,9 @@
                 <img src="Image 1.png" alt="">
             </div>
             <div id="right">
-                <div>
-                    <input type="text">
+                <div class="input">
+                    <i class='bx bx-search'></i>
+                    <input class="header_search" type="text" placeholder="Search Product">
                 </div>
                 <div>
                     <img src="Button 1.png" alt="">
@@ -33,34 +37,94 @@
                 </div>
             </div>
         </div>
-        <div class="promotions">
-            Promotions
-        </div>
-
+        
+        <!-- center -->
+        <div class="main">
+        <div class="promotions">Promotions</div>
         <div class="box1">
-            <div class="box1_hinh">
                 <img src="Image 1 (1).png" alt="">
-            </div>
             <div class="box1_chu">
-                <p><h3>Promotion title</h3> Et ipsum irure amet cupidatat mollit exeercitation consequat duis aliquip. Reprehenderit Lorem veniam pariatur esse pariatur in aute tempor au
-                <br> <p>*Velit deserunt elit proident velit anin adipisicing</p>
-                </p>
+                <p class="text_header">Promotion title</p>
+                <p class="text_center">Et ipsum irure amet cupidatat mollit exeercitation consequat duis aliquip. Reprehenderit Lorem veniam pariatur esse pariatur in aute tempor au</p>
+                <p class="text_footer">*Velit deserunt elit proident velit anin adipisicing</p>
                 <button class="box1_button">Shop now</button>
             </div>
         </div>
 
         <div class="box2">
-            <div class="box2_hinh">
-                <img src="Image 1 (2).png" alt="">
-            </div>
+            <img src="Image 1 (2).png" alt="">
             <div class="box2_chu">
-                <p><h3>Promotion title</h3> Et ipsum irure amet cupidatat mollit exeercitation consequat duis aliquip. Reprehenderit Lorem veniam pariatur esse pariatur in aute tempor au
-                <br> <p>*Velit deserunt elit proident velit anin adipisicing</p>
-                </p>
+                <p class="text_header">Promotion title</p>
+                <p class="text_center">Et ipsum irure amet cupidatat mollit exeercitation consequat duis aliquip. Reprehenderit Lorem veniam pariatur esse pariatur in aute tempor au</p>
+                <p class="text_footer">*Velit deserunt elit proident velit anin adipisicing</p>
                 <button class="box2_button">Shop now</button>
             </div>
         </div>
 
+        <div class="box3">
+            <img class="box3_hinh" src="Image 1 (3).png" alt="">
+            <div class="box3_chu">
+                <p class="text_header_box3">Gift for your skin</p>
+                <p class="text_center_box3">Enim officia magna esse aliquip irure consectetur dolor commodo et. Cupid</p>
+                <button class="box3_button">Shop now</button>
+            </div>
+        </div> 
+    </div>
+
+    <!-- footer -->
+    <div class="footer">      
+        <div class="footer_start">
+        <ul class="footer_list">
+            <li class="ul_header">About</li>
+            <li>Home</li>
+            <li>Shop</li>
+            <li>Our Story</li>
+            <li>Blogs</li>
+            <select class="select" id="language">
+                <option value="English">English</option>
+                <option value="Tiếng Việt">Tiếng Việt</option>
+                <option value=""> España</option>
+            </select>
+                
+        </ul>
+        <ul class="footer_list">
+            <li class="ul_header">Help </li>
+            <li>Shipping & Returns</li>
+            <li>Track Order</li>
+            <li>FAQs</li>
+
+        </ul>
+        <ul class="footer_list">
+            <li class="ul_header">Contact</li>
+            <li>Phone</li>
+            <li>(+1) 123 456 7893</li>
+            <li>Email</li>
+            <li>nguyencaotri@gmail.com</li>
+        </ul>
+    </div>
+    <!---->
+         <div class="footer_end">
+                <div class="footer_text">
+                <div class="footer_text1">Receive new promotions</div>
+                <div class="footer_text2">Duis ea tempor commodo amet reprehende</div>
+                </div>
+                <div class="footer_input">
+                    <i class='bx bx-envelope'></i>
+                    <input class="footer_input_email" type="email" placeholder="Input your email">
+                    <button class="footer_button">Subscribe</button>
+                </div>
+                <div class="footer_img">
+                    <img src="Twitter 1.png" alt="">
+                    <img src="Facebook 1.png" alt="">
+                    <img src="LinkedIn 1.png" alt="">
+                    <img src="YouTube 1.png" alt="">
+                   
+                </div>
+                <p class="footer_source">@ 2022 Brand, Inc</p>
+         </div>
+
+    </div>
+    
     </div>
 </body>
 
