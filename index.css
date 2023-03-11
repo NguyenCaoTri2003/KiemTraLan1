@@ -41,17 +41,21 @@
     position: relative;
     top: 6px;
 }
+.main{
+    display: flex;
+    flex-direction: column;
+}
 .promotions {
     font-size: 45px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
     color: rgb(59, 59, 59);
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-top: 30px;
 }
 .box1, .box2, .box3{
     display: flex;
-    margin: 38px 130px 38px 130px;
+    margin: 20px 130px 18px 130px;
     border: 1px solid #ccc;
     border-radius: 10px;
     transition: 0.1s;
@@ -123,6 +127,7 @@
     width: 100%;
     background-color: #1D2128;
     height: 390px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
 }
@@ -212,4 +217,12 @@
 .footer_source{
     font-size: 12px;
     counter-reset: #8d8d8d;
+    display: flex;
+}
+.footer_source_list{
+    display: flex;
+}
+.footer_source_list1, .footer_source_list2, .footer_source_list3{
+    margin-left: 21px;
+    margin-right: -1px;
 }
