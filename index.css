@@ -35,6 +35,9 @@
 }
 .header_search{
     height: 20px;
+    border: none;
+    margin-left: 15px;
+    margin-bottom: 4px;
 }
 .bx-search{
     font-size: 22px;
@@ -65,7 +68,7 @@
     border: 1px solid #535353;
 }
 .box1_chu, .box2_chu{
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 28px;
     line-height: 34px;
 }
